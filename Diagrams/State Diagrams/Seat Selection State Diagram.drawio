@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.8">
+  <diagram name="Page-1" id="7VdIlfiAIKdzNFPpQ_gc">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="600" pageHeight="500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CEZ-OAzP9IoAJ3BSs7Vd-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="35" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CEZ-OAzP9IoAJ3BSs7Vd-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CEZ-OAzP9IoAJ3BSs7Vd-1" target="CEZ-OAzP9IoAJ3BSs7Vd-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="244" y="135" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="165" y="140" />
+              <mxPoint x="165" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEZ-OAzP9IoAJ3BSs7Vd-3" value="View Seats" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CEZ-OAzP9IoAJ3BSs7Vd-2">
+          <mxGeometry x="-0.2914" y="5" relative="1" as="geometry">
+            <mxPoint x="-5" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEZ-OAzP9IoAJ3BSs7Vd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CEZ-OAzP9IoAJ3BSs7Vd-5" target="CEZ-OAzP9IoAJ3BSs7Vd-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEZ-OAzP9IoAJ3BSs7Vd-5" value="Avaliable" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="170" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CEZ-OAzP9IoAJ3BSs7Vd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CEZ-OAzP9IoAJ3BSs7Vd-8" target="CEZ-OAzP9IoAJ3BSs7Vd-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEZ-OAzP9IoAJ3BSs7Vd-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="CEZ-OAzP9IoAJ3BSs7Vd-8" target="CEZ-OAzP9IoAJ3BSs7Vd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEZ-OAzP9IoAJ3BSs7Vd-8" value="Selected" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="420" y="170" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CEZ-OAzP9IoAJ3BSs7Vd-9" value="Select Seat" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="190" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CEZ-OAzP9IoAJ3BSs7Vd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CEZ-OAzP9IoAJ3BSs7Vd-11" target="CEZ-OAzP9IoAJ3BSs7Vd-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEZ-OAzP9IoAJ3BSs7Vd-11" value="Reserved" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="320" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CEZ-OAzP9IoAJ3BSs7Vd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CEZ-OAzP9IoAJ3BSs7Vd-13" target="CEZ-OAzP9IoAJ3BSs7Vd-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEZ-OAzP9IoAJ3BSs7Vd-13" value="Confirmed" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="420" y="320" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CEZ-OAzP9IoAJ3BSs7Vd-14" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="275" y="420" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CEZ-OAzP9IoAJ3BSs7Vd-15" value="Reserve Seats&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="245" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEZ-OAzP9IoAJ3BSs7Vd-17" value="Deselect Seat" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="158" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CEZ-OAzP9IoAJ3BSs7Vd-18" value="Confirm Booking" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="318" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
