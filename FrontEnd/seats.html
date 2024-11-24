@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>CinemaCentral</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="iconblack.ico" type="image/x-icon">
+
+    <style>
+        footer {
+            background-color: #000;
+            color: rgb(239, 239, 239);
+            text-align: center;
+            padding: 10px;
+
+            bottom: 0;
+            width: 100%;
+        }
+
+        .movies-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .dropbtn {
+            background-color: #EEAE42;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 15;
+        }
+
+        .dropbtn:hover,
+        .dropbtn:focus {
+            background-color: #121212;
+        }
+
+        .dropdown {
+            float: right;
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            right: 0;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown a:hover {
+            background-color: #ddd;
+        }
+
+        .show {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <main class="-grey ">
+        <!-- Navbar (Sits on top) -->
+        <div class="-top -bar -dark-grey ">
+            <a href="./index.html" class="-bar-item -button">
+                <image src="Logowhtblcknbg.png" height="50">
+            </a>
+            <div class="-right -hide-small">
+                <a href="./movies.html" class="-bar-item -button" style="font-size: 20;">Movies</a>
+                <a href="./seats.html" class="-bar-item -button">Locations</a>
+                <a href="./contact.html" class="-bar-item -button">Customer Support</a>
+            </div>
+        </div>
+        <!-- Start Content -->
+
+
+
+        <!-- Header image -->
+
+
+
+        <div class="-display-center -container -text-white " style="padding-top: 80px;font-size:30px;">Choose your
+            prefered location</div>
+            <div class="move-container">
+              <label class="-text-white">Pick a Location:</label>
+              <select
+                ><option >Unversity District</option>
+                <option >Market Mall</option>
+                <option >Chinook</option>
+                <option >17th Ave</option></select
+              >
+            </div>
+
+       
+
+
+        
+
+        <div class  ="move-container">
+            <label class="-text-white">Pick a movie:</label>
+            <select id="movie"
+              ><option value="16">Interstellar ($16)</option>
+              <option value="17">Iron man ($17)</option>
+              <option value="15">Batman ($15)</option>
+              <option value="11">Inception ($11)</option>
+              <option value="14">The Wolf of Wall Street ($14)</option>
+              <option value="12">Ocean Eleven ($12)</option></select
+            >
+          </div>
+          <div class="-display-leftmiddle -container -text-white" style="font-size:30px;">Here are the available seats:
+          </div>
+      
+          <ul class="showcase">
+            <li>
+              <div class="seat"></div>
+              <small>Available</small>
+            </li>
+            <li>
+              <div class="seat selected"></div>
+              <small>Selected</small>
+            </li>
+            <li>
+              <div class="seat occupied"></div>
+              <small>Occupied</small>
+            </li>
+          </ul>
+      
+          <div class="container">
+            <div class="screen"></div>
+            <div class="movies-container">
+            <div class="row">
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+            </div>
+            <div class="row">
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat occupied"></div>
+              <div class="seat occupied"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+            </div>
+            <div class="row">
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat occupied"></div>
+              <div class="seat occupied"></div>
+            </div>
+            <div class="row">
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+            </div>
+            <div class="row">
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat occupied"></div>
+              <div class="seat occupied"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+            </div>
+            <div class="row">
+              <div class="seat"></div>
+              <div class="seat occupied"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat occupied"></div>
+              <div class="seat occupied"></div>
+              <div class="seat"></div>
+            </div>
+          </div>   
+          </div>
+          <p class="-text-white" >
+          <p class="text">
+            You have selected <span id="count">0</span> seats for the price of $<span
+              id="total"
+              >0</span
+            >!
+          </p>
+        </p>
+      
+          <script src="seats.js"></script>
+
+
+
+
+        <footer>
+            &#174; 2024 CinemaCentral. All rights reserved.
+        </footer>
+
+        <!-- End Content -->
+        </div>
+    </main>
+</body>
+
+
+</html>
