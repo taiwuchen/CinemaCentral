@@ -12,7 +12,7 @@ public class MovieController {
             Map.of("id", 2, "title", "Ironman", "price", 17),
             Map.of("id", 3, "title", "Batman", "price", 15),
             Map.of("id", 4, "title", "Inception", "price", 11),
-            Map.of("id", 5, "title", "The Wolf of Wall Street", "price", 14),
+            Map.of("id", 5, "title", "The Wolf of Wall Street", "price", 500),
             Map.of("id", 6, "title", "Oceans 11", "price", 12)
     ));
 
