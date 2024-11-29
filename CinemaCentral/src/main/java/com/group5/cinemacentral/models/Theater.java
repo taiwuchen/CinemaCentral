@@ -1,14 +1,15 @@
 package com.group5.cinemacentral.models;
+import java.util.List;
 
-public abstract class User {
+public class Theater {
     private Long id;
     private String name;
-    private String email;
+    private List<SeatMap> seatMaps;
 
-    public User(Long id, String name, String email) {
+    public Theater(Long id, String name, List<SeatMap> seatMaps) {
         this.id = id;
         this.name = name;
-        this.email = email;
+        this.seatMaps = seatMaps;
     }
 
     // Getters and Setters
@@ -28,13 +29,11 @@ public abstract class User {
         this.name = name;
     }
 
-    public String getEmail() {
-        return email;
+    public List<SeatMap> getSeatMaps() {
+        return seatMaps;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setSeatMaps(List<SeatMap> seatMaps) {
+        this.seatMaps = seatMaps;
     }
-
-    public abstract void receiveNotification(String message);
 }

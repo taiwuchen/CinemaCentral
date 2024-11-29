@@ -1,24 +1,21 @@
-// Movie.java
-package com.cinemacentral.models;
+package com.group5.cinemacentral.models;
+
+import java.util.List;
 
 public class Movie {
-    private Long id; // Unique identifier
+    private Long id;
     private String title;
-    private String description;
-    private Double price;
-    private String imageUrl;
+    private String director;
+    private List<ShowTime> showTimes;
 
-    // Constructors, Getters, and Setters
-    public Movie() {}
-
-    public Movie(Long id, String title, String description, Double price, String imageUrl) {
+    public Movie(Long id, String title, String director, List<ShowTime> showTimes) {
         this.id = id;
         this.title = title;
-        this.description = description;
-        this.price = price;
-        this.imageUrl = imageUrl;
+        this.director = director;
+        this.showTimes = showTimes;
     }
 
+    // Getters and Setters
     public Long getId() {
         return id;
     }
@@ -35,27 +32,19 @@ public class Movie {
         this.title = title;
     }
 
-    public String getDescription() {
-        return description;
+    public String getDirector() {
+        return director;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setDirector(String director) {
+        this.director = director;
     }
 
-    public Double getPrice() {
-        return price;
+    public List<ShowTime> getShowTimes() {
+        return showTimes;
     }
 
-    public void setPrice(Double price) {
-        this.price = price;
-    }
-
-    public String getImageUrl() {
-        return imageUrl;
-    }
-
-    public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
+    public void setShowTimes(List<ShowTime> showTimes) {
+        this.showTimes = showTimes;
     }
 }
