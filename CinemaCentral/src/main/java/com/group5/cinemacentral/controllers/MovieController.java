@@ -7,7 +7,6 @@ import java.util.*;
 @RequestMapping("/api/movies")
 public class MovieController {
 
-    // Mock movie data (replace with database later)
     private final List<Map<String, Object>> movies = new ArrayList<>(List.of(
             Map.of("id", 1, "title", "Interstellar", "price", 16),
             Map.of("id", 2, "title", "Ironman", "price", 17),
