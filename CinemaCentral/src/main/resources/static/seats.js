@@ -4,7 +4,20 @@ const count = document.getElementById("count");
 const total = document.getElementById("total");
 const movieSelect = document.getElementById("movie");
 
-populateUI();
+fetch('/api/movies')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    return response.json();
+  })
+  .then(movies => {
+    const movieSelect = document.getElementById("movie");
+    movieSelect.innerHTML = movies.map(movie =>
+      `<option value="${movie.price}">${movie.title} ($${movie.price})</option>`
+    ).join('');
+  })
+  .catch(err => console.error("Failed to load movies:", err));
 
 let ticketPrice = +movieSelect.value;
 
