@@ -1,4 +1,4 @@
-# ENSF 480 Group 05 Movie App Project
+# Movie App Project
 
 
 ## How to Download and Run the Project
